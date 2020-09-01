@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
     <div>
       <Layout title="Posts - Pith Blog" description={descript}>
         <p className="about">
-        <a href="/posts/pith-intro">Pith</a> is an experimental online discussion space that builds on the
+        <a href="https://dev1.pith.rainflame.com/">Pith</a> is an experimental online discussion space that builds on the
           notion of an electronic direct democracy. This is a place where
           articles about how and why it's being designed are posted.
         </p>
