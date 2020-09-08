@@ -179,6 +179,12 @@ a {
     color: var(--body-text);
 }
 
+code {
+    background-color: var(--background-color);
+    padding: 1px 5px;
+    font-size: 14px;
+}
+
 #light-square {
     cursor: pointer;
     position: fixed;
