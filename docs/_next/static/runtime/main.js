@@ -940,7 +940,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/cbroms/Desktop/pith-blog/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/cbroms/Desktop/pith-blog/.next");
       return error;
     }
   };
