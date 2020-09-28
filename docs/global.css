@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/hsu5vxo.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
     --black: #101010;
@@ -34,7 +34,7 @@
 }
 
 body {
-    font-family: freight-text-pro, serif;
+    font-family: "Source Serif Pro", serif;
     margin: 0 5px;
     background-color: var(--background-color);
     font-size: 1.2rem;
