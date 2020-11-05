@@ -39,7 +39,7 @@ export default function ColorMode() {
         );
         document.documentElement.style.setProperty(
             "--body-text",
-            "var(--light-dark)"
+            "var(--mid-dark)"
         );
         document.documentElement.style.setProperty(
             "--logo-color",

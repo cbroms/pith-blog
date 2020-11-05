@@ -1,7 +1,7 @@
 ---
 title: "Alpha prototype mid-fidelity mockups"
 date: "2020-09-27"
-author: "Christian Broms and Sydney Zheng"
+author: "Christian Broms & Sydney Zheng"
 summary: "We'd like to share the latest medium fidelity mockups of our alpha prototype, which lays out the framework for a small group of people to have an organized discussion. We designed the framework to be extensible to the beta prototype, which organizes discussion for a large group of people."
 ---
 
@@ -13,11 +13,11 @@ The screen is divided into two main parts, the left half being a chat-like space
 
 ## The document
 
-The document space is essentially a recursive bullet-list structure in the vein of [Roam Research](https://roamresearch.com/) or [Workflowly](https://workflowy.com/). A bullet point serves as both content for its parent bullet point and as the section header for its children bullet. We call the text in each point *piths* because we imagine the text should capture the essence of the point's children or an idea. Our term for a bullet point is a *unit*, which includes the pith and a list of child units, creating the recursive structure. 
+The document space is essentially a recursive bullet-list structure in the vein of [Roam Research](https://roamresearch.com/) or [Workflowly](https://workflowy.com/). A bullet point serves as both content for its parent bullet point and as the section header for its children bullet. We call the text in each point _piths_ because we imagine the text should capture the essence of the point's children or an idea. Our term for a bullet point is a _unit_, which includes the pith and a list of child units, creating the recursive structure.
 
-The purpose of the organizational space is to capture the most salient parts of the conversation for the members as they discuss. This not only helps them expand upon the most important points *during* the discussion, but also remember their points *after* the discussion. 
+The purpose of the organizational space is to capture the most salient parts of the conversation for the members as they discuss. This not only helps them expand upon the most important points _during_ the discussion, but also remember their points _after_ the discussion.
 
-To do this, the document serves as a space for the members to track points considered worthwhile. Generally, the members might want to be talking about the same subject. They can create a unit in the document for their topic, i.e. "Whales". Each member has a special "cursor" they can set to any place in the document, such as under the unit for "Whales". As the members continue generating units related to this topic, they can copy over units from the discussion pace to under their cursor. After some time, the "Whales" point will be full of units deemed important. 
+To do this, the document serves as a space for the members to track points considered worthwhile. Generally, the members might want to be talking about the same subject. They can create a unit in the document for their topic, i.e. "Whales". Each member has a special "cursor" they can set to any place in the document, such as under the unit for "Whales". As the members continue generating units related to this topic, they can copy over units from the discussion pace to under their cursor. After some time, the "Whales" point will be full of units deemed important.
 
 ![](/images/mid-fidelity/document.png)
 
@@ -31,13 +31,13 @@ Each member also has a timeline of the units they've visited. This timeline is p
 
 ![](/images/mid-fidelity/timeline.png)
 
-We've elected to create "locks" on content to prevent concurrency related issues. Only one user at a time can edit or move any given unit. 
+We've elected to create "locks" on content to prevent concurrency related issues. Only one user at a time can edit or move any given unit.
 
 ![](/images/mid-fidelity/lock.png)
 
 ## The discussion
 
-For the discussion space, we're mostly keeping the design we've been working with for the past few months: 
+For the discussion space, we're mostly keeping the design we've been working with for the past few months:
 
 ![](/images/mid-fidelity/current.png)
 

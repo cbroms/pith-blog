@@ -1,7 +1,7 @@
 ---
 title: "How We're Building Pith: Architecture"
 date: "2020-09-08"
-author: "Christian Broms and Sydney Zheng"
+author: "Christian Broms & Sydney Zheng"
 summary: "Much of the focus of the Pith blog has been about why we're designing the system and what we're considering while doing so. We've yet to discuss much about how we're building Pith, specifically the technologies we're using and architecture of the system."
 ---
 
