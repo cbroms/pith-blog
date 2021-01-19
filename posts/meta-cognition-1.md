@@ -1,11 +1,9 @@
 ---
-title: "Group Meta-Cognition"
+title: "Group Meta-Cognition I"
 date: "2021-01-05"
 author: "Sydney Zheng"
 summary: "Currently, I am designing how small groups or individual discussers can organize their ideas as an large group. Our main idea is the reflections of the large group are captured in a large, tree document. However, this presents several issues."
 ---
-
-# Group Meta-Cognition
 
 Currently, I am designing how small groups or individual discussers can organize their ideas as an large group. Our main idea is the reflections of the large group are captured in a large, tree document. However, this presents several issues.
 

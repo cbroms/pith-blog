@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
+(window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([[1],{
 
 /***/ "./components/colorMode.js":
 /*!*********************************!*\
@@ -8,70 +8,8 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ColorMode; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/cbroms/Documents/pith-blog/components/colorMode.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-function ColorMode() {
-  var setDark = function setDark() {
-    window.localStorage.setItem("pith-color-mode", "dark");
-    document.documentElement.style.setProperty("--background-color", "var(--dark-dark)");
-    document.documentElement.style.setProperty("--reading-color", "var(--mid-dark)");
-    document.documentElement.style.setProperty("--heading-text", "var(--mid-light)");
-    document.documentElement.style.setProperty("--body-text", "var(--dark-light)");
-    document.documentElement.style.setProperty("--logo-color", "var(--light-light)");
-  };
-
-  var setLight = function setLight() {
-    window.localStorage.setItem("pith-color-mode", "light");
-    document.documentElement.style.setProperty("--background-color", "var(--mid-light)");
-    document.documentElement.style.setProperty("--reading-color", "var(--light-light)");
-    document.documentElement.style.setProperty("--heading-text", "var(--mid-dark)");
-    document.documentElement.style.setProperty("--body-text", "var(--mid-dark)");
-    document.documentElement.style.setProperty("--logo-color", "var(--black)");
-  };
-
-  var mode = window.localStorage.getItem("pith-color-mode");
-  if (mode === "dark") setDark();else if (mode === "light") setLight();else {
-    var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    if (dark) setDark();else setLight();
-  }
-  return __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    id: "light-square",
-    onClick: function onClick() {
-      return setLight();
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 13
-    }
-  }), __jsx("div", {
-    id: "dark-square",
-    onClick: function onClick() {
-      return setDark();
-    },
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 13
-    }
-  }));
-}
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return ColorMode; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nvar _jsxFileName = \"/Users/cbroms/Documents/pith-blog/components/colorMode.js\";\n\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\nfunction ColorMode() {\n  var setDark = function setDark() {\n    window.localStorage.setItem(\"pith-color-mode\", \"dark\");\n    document.documentElement.style.setProperty(\"--background-color\", \"var(--dark-dark)\");\n    document.documentElement.style.setProperty(\"--reading-color\", \"var(--mid-dark)\");\n    document.documentElement.style.setProperty(\"--heading-text\", \"var(--mid-light)\");\n    document.documentElement.style.setProperty(\"--body-text\", \"var(--dark-light)\");\n    document.documentElement.style.setProperty(\"--logo-color\", \"var(--light-light)\");\n  };\n\n  var setLight = function setLight() {\n    window.localStorage.setItem(\"pith-color-mode\", \"light\");\n    document.documentElement.style.setProperty(\"--background-color\", \"var(--mid-light)\");\n    document.documentElement.style.setProperty(\"--reading-color\", \"var(--light-light)\");\n    document.documentElement.style.setProperty(\"--heading-text\", \"var(--mid-dark)\");\n    document.documentElement.style.setProperty(\"--body-text\", \"var(--mid-dark)\");\n    document.documentElement.style.setProperty(\"--logo-color\", \"var(--black)\");\n  };\n\n  var mode = window.localStorage.getItem(\"pith-color-mode\");\n  if (mode === \"dark\") setDark();else if (mode === \"light\") setLight();else {\n    var dark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n    if (dark) setDark();else setLight();\n  }\n  return __jsx(\"div\", {\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 59,\n      columnNumber: 9\n    }\n  }, __jsx(\"div\", {\n    id: \"light-square\",\n    onClick: function onClick() {\n      return setLight();\n    },\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 60,\n      columnNumber: 13\n    }\n  }), __jsx(\"div\", {\n    id: \"dark-square\",\n    onClick: function onClick() {\n      return setDark();\n    },\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 61,\n      columnNumber: 13\n    }\n  }));\n}\n_c = ColorMode;\n\nvar _c;\n\n$RefreshReg$(_c, \"ColorMode\");\n\n;\n    var _a, _b;\n    // Legacy CSS implementations will `eval` browser code in a Node.js context\n    // to extract CSS. For backwards compatibility, we need to check we're in a\n    // browser context before continuing.\n    if (typeof self !== 'undefined' &&\n        // AMP / No-JS mode does not inject these helpers:\n        '$RefreshHelpers$' in self) {\n        var currentExports = module.__proto__.exports;\n        var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;\n        // This cannot happen in MainTemplate because the exports mismatch between\n        // templating and execution.\n        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.i);\n        // A module can be accepted automatically based on its exports, e.g. when\n        // it is a Refresh Boundary.\n        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {\n            // Save the previous exports on update so we can compare the boundary\n            // signatures.\n            module.hot.dispose(function (data) {\n                data.prevExports = currentExports;\n            });\n            // Unconditionally accept an update to this module, we'll check if it's\n            // still a Refresh Boundary later.\n            module.hot.accept();\n            // This field is set when the previous version of this module was a\n            // Refresh Boundary, letting us know we need to check for invalidation or\n            // enqueue an update.\n            if (prevExports !== null) {\n                // A boundary can become ineligible if its exports are incompatible\n                // with the previous exports.\n                //\n                // For example, if you add/remove/change exports, we'll want to\n                // re-execute the importing modules, and force those components to\n                // re-render. Similarly, if you convert a class component to a\n                // function, we want to invalidate the boundary.\n                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {\n                    module.hot.invalidate();\n                }\n                else {\n                    self.$RefreshHelpers$.scheduleUpdate();\n                }\n            }\n        }\n        else {\n            // Since we just executed the code for the module, it's possible that the\n            // new exports made it ineligible for being a boundary.\n            // We only care about the case when we were _previously_ a boundary,\n            // because we already accepted this update (accidental side effect).\n            var isNoLongerABoundary = prevExports !== null;\n            if (isNoLongerABoundary) {\n                module.hot.invalidate();\n            }\n        }\n    }\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ \"./node_modules/webpack/buildin/harmony-module.js\")(module)))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vY29tcG9uZW50cy9jb2xvck1vZGUuanM/N2U4YSJdLCJuYW1lcyI6WyJDb2xvck1vZGUiLCJzZXREYXJrIiwid2luZG93IiwibG9jYWxTdG9yYWdlIiwic2V0SXRlbSIsImRvY3VtZW50IiwiZG9jdW1lbnRFbGVtZW50Iiwic3R5bGUiLCJzZXRQcm9wZXJ0eSIsInNldExpZ2h0IiwibW9kZSIsImdldEl0ZW0iLCJkYXJrIiwibWF0Y2hNZWRpYSIsIm1hdGNoZXMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBZSxTQUFTQSxTQUFULEdBQXFCO0FBQ2hDLE1BQU1DLE9BQU8sR0FBRyxTQUFWQSxPQUFVLEdBQU07QUFDbEJDLFVBQU0sQ0FBQ0MsWUFBUCxDQUFvQkMsT0FBcEIsQ0FBNEIsaUJBQTVCLEVBQStDLE1BQS9DO0FBQ0FDLFlBQVEsQ0FBQ0MsZUFBVCxDQUF5QkMsS0FBekIsQ0FBK0JDLFdBQS9CLENBQ0ksb0JBREosRUFFSSxrQkFGSjtBQUlBSCxZQUFRLENBQUNDLGVBQVQsQ0FBeUJDLEtBQXpCLENBQStCQyxXQUEvQixDQUNJLGlCQURKLEVBRUksaUJBRko7QUFJQUgsWUFBUSxDQUFDQyxlQUFULENBQXlCQyxLQUF6QixDQUErQkMsV0FBL0IsQ0FDSSxnQkFESixFQUVJLGtCQUZKO0FBSUFILFlBQVEsQ0FBQ0MsZUFBVCxDQUF5QkMsS0FBekIsQ0FBK0JDLFdBQS9CLENBQ0ksYUFESixFQUVJLG1CQUZKO0FBSUFILFlBQVEsQ0FBQ0MsZUFBVCxDQUF5QkMsS0FBekIsQ0FBK0JDLFdBQS9CLENBQ0ksY0FESixFQUVJLG9CQUZKO0FBSUgsR0F0QkQ7O0FBd0JBLE1BQU1DLFFBQVEsR0FBRyxTQUFYQSxRQUFXLEdBQU07QUFDbkJQLFVBQU0sQ0FBQ0MsWUFBUCxDQUFvQkMsT0FBcEIsQ0FBNEIsaUJBQTVCLEVBQStDLE9BQS9DO0FBQ0FDLFlBQVEsQ0FBQ0MsZUFBVCxDQUF5QkMsS0FBekIsQ0FBK0JDLFdBQS9CLENBQ0ksb0JBREosRUFFSSxrQkFGSjtBQUlBSCxZQUFRLENBQUNDLGVBQVQsQ0FBeUJDLEtBQXpCLENBQStCQyxXQUEvQixDQUNJLGlCQURKLEVBRUksb0JBRko7QUFJQUgsWUFBUSxDQUFDQyxlQUFULENBQXlCQyxLQUF6QixDQUErQkMsV0FBL0IsQ0FDSSxnQkFESixFQUVJLGlCQUZKO0FBSUFILFlBQVEsQ0FBQ0MsZUFBVCxDQUF5QkMsS0FBekIsQ0FBK0JDLFdBQS9CLENBQ0ksYUFESixFQUVJLGlCQUZKO0FBSUFILFlBQVEsQ0FBQ0MsZUFBVCxDQUF5QkMsS0FBekIsQ0FBK0JDLFdBQS9CLENBQ0ksY0FESixFQUVJLGNBRko7QUFJSCxHQXRCRDs7QUF3QkEsTUFBTUUsSUFBSSxHQUFHUixNQUFNLENBQUNDLFlBQVAsQ0FBb0JRLE9BQXBCLENBQTRCLGlCQUE1QixDQUFiO0FBQ0EsTUFBSUQsSUFBSSxLQUFLLE1BQWIsRUFBcUJULE9BQU8sR0FBNUIsS0FDSyxJQUFJUyxJQUFJLEtBQUssT0FBYixFQUFzQkQsUUFBUSxHQUE5QixLQUNBO0FBQ0QsUUFBTUcsSUFBSSxHQUFHVixNQUFNLENBQUNXLFVBQVAsQ0FBa0IsOEJBQWxCLEVBQWtEQyxPQUEvRDtBQUNBLFFBQUlGLElBQUosRUFBVVgsT0FBTyxHQUFqQixLQUNLUSxRQUFRO0FBQ2hCO0FBQ0QsU0FDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEtBQ0k7QUFBSyxNQUFFLEVBQUMsY0FBUjtBQUF1QixXQUFPLEVBQUU7QUFBQSxhQUFNQSxRQUFRLEVBQWQ7QUFBQSxLQUFoQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLElBREosRUFFSTtBQUFLLE1BQUUsRUFBQyxhQUFSO0FBQXNCLFdBQU8sRUFBRTtBQUFBLGFBQU1SLE9BQU8sRUFBYjtBQUFBLEtBQS9CO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFGSixDQURKO0FBTUg7S0EvRHVCRCxTIiwiZmlsZSI6Ii4vY29tcG9uZW50cy9jb2xvck1vZGUuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDb2xvck1vZGUoKSB7XG4gICAgY29uc3Qgc2V0RGFyayA9ICgpID0+IHtcbiAgICAgICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKFwicGl0aC1jb2xvci1tb2RlXCIsIFwiZGFya1wiKTtcbiAgICAgICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KFxuICAgICAgICAgICAgXCItLWJhY2tncm91bmQtY29sb3JcIixcbiAgICAgICAgICAgIFwidmFyKC0tZGFyay1kYXJrKVwiXG4gICAgICAgICk7XG4gICAgICAgIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5zZXRQcm9wZXJ0eShcbiAgICAgICAgICAgIFwiLS1yZWFkaW5nLWNvbG9yXCIsXG4gICAgICAgICAgICBcInZhcigtLW1pZC1kYXJrKVwiXG4gICAgICAgICk7XG4gICAgICAgIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5zZXRQcm9wZXJ0eShcbiAgICAgICAgICAgIFwiLS1oZWFkaW5nLXRleHRcIixcbiAgICAgICAgICAgIFwidmFyKC0tbWlkLWxpZ2h0KVwiXG4gICAgICAgICk7XG4gICAgICAgIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5zZXRQcm9wZXJ0eShcbiAgICAgICAgICAgIFwiLS1ib2R5LXRleHRcIixcbiAgICAgICAgICAgIFwidmFyKC0tZGFyay1saWdodClcIlxuICAgICAgICApO1xuICAgICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc3R5bGUuc2V0UHJvcGVydHkoXG4gICAgICAgICAgICBcIi0tbG9nby1jb2xvclwiLFxuICAgICAgICAgICAgXCJ2YXIoLS1saWdodC1saWdodClcIlxuICAgICAgICApO1xuICAgIH07XG5cbiAgICBjb25zdCBzZXRMaWdodCA9ICgpID0+IHtcbiAgICAgICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKFwicGl0aC1jb2xvci1tb2RlXCIsIFwibGlnaHRcIik7XG4gICAgICAgIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5zZXRQcm9wZXJ0eShcbiAgICAgICAgICAgIFwiLS1iYWNrZ3JvdW5kLWNvbG9yXCIsXG4gICAgICAgICAgICBcInZhcigtLW1pZC1saWdodClcIlxuICAgICAgICApO1xuICAgICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc3R5bGUuc2V0UHJvcGVydHkoXG4gICAgICAgICAgICBcIi0tcmVhZGluZy1jb2xvclwiLFxuICAgICAgICAgICAgXCJ2YXIoLS1saWdodC1saWdodClcIlxuICAgICAgICApO1xuICAgICAgICBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuc3R5bGUuc2V0UHJvcGVydHkoXG4gICAgICAgICAgICBcIi0taGVhZGluZy10ZXh0XCIsXG4gICAgICAgICAgICBcInZhcigtLW1pZC1kYXJrKVwiXG4gICAgICAgICk7XG4gICAgICAgIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5zdHlsZS5zZXRQcm9wZXJ0eShcbiAgICAgICAgICAgIFwiLS1ib2R5LXRleHRcIixcbiAgICAgICAgICAgIFwidmFyKC0tbWlkLWRhcmspXCJcbiAgICAgICAgKTtcbiAgICAgICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnN0eWxlLnNldFByb3BlcnR5KFxuICAgICAgICAgICAgXCItLWxvZ28tY29sb3JcIixcbiAgICAgICAgICAgIFwidmFyKC0tYmxhY2spXCJcbiAgICAgICAgKTtcbiAgICB9O1xuXG4gICAgY29uc3QgbW9kZSA9IHdpbmRvdy5sb2NhbFN0b3JhZ2UuZ2V0SXRlbShcInBpdGgtY29sb3ItbW9kZVwiKTtcbiAgICBpZiAobW9kZSA9PT0gXCJkYXJrXCIpIHNldERhcmsoKTtcbiAgICBlbHNlIGlmIChtb2RlID09PSBcImxpZ2h0XCIpIHNldExpZ2h0KCk7XG4gICAgZWxzZSB7XG4gICAgICAgIGNvbnN0IGRhcmsgPSB3aW5kb3cubWF0Y2hNZWRpYShcIihwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyaylcIikubWF0Y2hlcztcbiAgICAgICAgaWYgKGRhcmspIHNldERhcmsoKTtcbiAgICAgICAgZWxzZSBzZXRMaWdodCgpO1xuICAgIH1cbiAgICByZXR1cm4gKFxuICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgPGRpdiBpZD1cImxpZ2h0LXNxdWFyZVwiIG9uQ2xpY2s9eygpID0+IHNldExpZ2h0KCl9IC8+XG4gICAgICAgICAgICA8ZGl2IGlkPVwiZGFyay1zcXVhcmVcIiBvbkNsaWNrPXsoKSA9PiBzZXREYXJrKCl9IC8+XG4gICAgICAgIDwvZGl2PlxuICAgICk7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/colorMode.js\n");
 
 /***/ })
 
 }]);
-//# sourceMappingURL=1.js.map
